@@ -7,6 +7,12 @@ AeroGear DataSync Roadmap
 =========================
 :Author: Daniel Bevenius
 
+References
+----------
+
+* link:/docs/specs/aerogear-data-sync/[AeroGear Data Sync Specification]  
+
+
 0.1.0 (Oct, 2014) Revision control     
 ----------------------------------
 This first release is really not categorized as _Data Sync_, as there is no synchronization going on. Instead
