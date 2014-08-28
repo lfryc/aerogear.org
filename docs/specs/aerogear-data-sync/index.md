@@ -7,7 +7,6 @@ title: AeroGear Data Sync
 # References
 
 - [Jira](https://issues.jboss.org/browse/AEROGEAR-1374)
-- [CouchDB data model](http://wiki.apache.org/couchdb/EntityRelationship)
 
 # Features
 
