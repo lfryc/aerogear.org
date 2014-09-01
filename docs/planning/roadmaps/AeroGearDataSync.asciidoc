@@ -36,6 +36,9 @@ Android
 * link:https://issues.jboss.org/browse/AGDROID-XXX[AGDROID-XXX] _Conflict resolution handling_ + 
 The API should be able to detect a 409 Conflict and allow the user to take action using callbacks. + 
 Callback functions should be _success_, _conflict_, and _error_.
+* link:https://issues.jboss.org/browse/AGDROID-XXX[AGDROID-XXX] _DiffMatchPatch conflict resolver_ + 
+A concrete conflict resolver that can uses DiffMatchPatch to resolve conflict. This resolver should be 
+configurable to allow for auto-merging.
 
 
 iOS
@@ -44,6 +47,9 @@ iOS
 * link:https://issues.jboss.org/browse/AGIOS-XXX[AGIOS-XXX]  _Conflict resolution handling_ + 
 The API should be able to detect a 409 Conflict and allow the user to take action using callbacks. + 
 Callback functions should be _success_, _conflict_, and _error_.
+* link:https://issues.jboss.org/browse/AGIOS-XXX[AGIOS-XXX] _DiffMatchPatch conflict resolver_ + 
+A concrete conflict resolver that can uses DiffMatchPatch to resolve conflict. This resolver should be 
+configurable to allow for auto-merging.
 
 
 JavaScript
@@ -53,36 +59,11 @@ JavaScript
 * link:https://issues.jboss.org/browse/AGJS-XXX[AGJS-XXX]  _Conflict resolution handling_ + 
 The API should be able to detect a 409 Conflict and allow the user to take action using callbacks. + 
 Callback functions should be _success_, _conflict_, and _error_.
-
-
-0.2.0 (Nov, 2014) Conflict resolvers
-------------------------------------
-This version is an extension of version 0.1.0 where the addition of a DiffMatchPatch resolver for 
-each client platform.
-
-Android
-~~~~~~~
-
-* link:https://issues.jboss.org/browse/AGDROID-XXX[AGDROID-XXX] _DiffMatchPatch conflict resolver_ + 
-A concrete conflict resolver that can uses DiffMatchPatch to resolve conflict. This resolver should be 
-configurable to allow for auto-merging.
-
-iOS
-~~~
-
-* link:https://issues.jboss.org/browse/AGIOS-XXX[AGIOS-XXX] _DiffMatchPatch conflict resolver_ + 
-A concrete conflict resolver that can uses DiffMatchPatch to resolve conflict. This resolver should be 
-configurable to allow for auto-merging.
-
-
-JavaScript
-~~~~~~~~~~
-
 * link:https://issues.jboss.org/browse/AGJS-XXX[AGJS-XXX] _DiffMatchPatch conflict resolver_ + 
 A concrete conflict resolver that can uses DiffMatchPatch to resolve conflict. This resolver should be 
 configurable to allow for auto-merging.
 
-0.3.0 (Jan, 2015) Server push
+0.2.0 (Jan, 2015) Server push
 -----------------------------
 This version extends upon 0.2.0 to add support for the server to reach out and notify the client that there 
 is a newer version available. 
@@ -107,7 +88,7 @@ JavaScript
 
 * link:https://issues.jboss.org/browse/AGJS-XXX[AGJS-XXX] Provide Notifier that is capable of delegeting to a configured <<js-resolver, Resolver>> 
 
-0.4.0 (Apr, 2015) "Real-time" Data Sync
+1.0.0 (Apr, 2015) "Real-time" Data Sync
 ---------------------------------------
 Full _real-time_ data sync where updates are initiated from both the client and server over a bi-directional channel. + 
 This version also supports persistent storage of updates to support offline work. + 
