@@ -55,7 +55,7 @@ We will have two synchronization strategies.  A document-revision strategy and a
 
 ### Document-revision Strategy
 
-The document revision strategy is based on maintaining relevant metadata about document revision and keeping it in lockstep with a server which fufills the stratgey contract.
+The document revision strategy is based on maintaining relevant metadata about document revision and keeping it in lockstep with a server which fulfills the strategy contract.
 
 #### Data model
 
