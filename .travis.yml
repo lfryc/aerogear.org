@@ -6,7 +6,7 @@ install:
 script:
 - OWNER_NAME=`dirname $TRAVIS_REPO_SLUG`
 - BASEURL='baseurl'
-- BASEURL="${BASEURL}:http"
+- BASEURL="${BASEURL}: http"
 - BASEURL="${BASEURL}://staging-aerogearsite.rhcloud.com"
 - BASEURL="${BASEURL}/${OWNER_NAME}/${TRAVIS_BRANCH}"
 - echo $BASEURL >> _config.yml
