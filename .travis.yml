@@ -5,7 +5,8 @@ install:
 - bundle install --path vendor
 script:
 - OWNER_NAME=`dirname $TRAVIS_REPO_SLUG`
-- echo 'baseurl: http://staging-aerogearsite.rhcloud.com/'$OWNER_NAME'/'$TRAVIS_BRANCH" >> _config.yml
+- BASEURL='baseurl'': ''http://staging-aerogearsite.rhcloud.com/'${OWNER_NAME}'/'${TRAVIS_BRANCH} 
+- echo $BASEURL >> _config.yml
 - bundle exec jekyll build
 after_success:
 - sudo apt-get update -q
