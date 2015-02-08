@@ -26,7 +26,7 @@ function after_success
 {
     sudo apt-get update -q
     sudo apt-get install -y rsync openssh-client
-    openssl aes-256-cbc -k "${ACCESS_KEY}" -in .staging-access-key.enc -out access-key -d
+    openssl aes-256-cbc -k "$ACCESS_KEY" -in .staging-access-key.enc -out access-key -d
     chmod 600 access_key
     $SSH 54c626194382ecaadb000076@staging-aerogearsite.rhcloud.com mkdir -p app-root/repo/$OWNER_NAME/$TRAVIS_BRANCH/
     rsync -avzq -e "${SSH}" _site/ 54c626194382ecaadb000076@staging-aerogearsite.rhcloud.com:app-root/repo/$OWNER_NAME/$TRAVIS_BRANCH/
