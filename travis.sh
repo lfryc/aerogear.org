@@ -6,7 +6,7 @@
 
 ACCESS_KEY=$2
 OWNER_NAME=`dirname $TRAVIS_REPO_SLUG`
-SSH="ssh -i access_key -o StrictHostKeyChecking=no"
+SSH="ssh -i access-key -o StrictHostKeyChecking=no"
 
 ##### Functions
 
