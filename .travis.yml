@@ -9,4 +9,4 @@ after_success:
 - bash -x travis.sh after_success
 env:
   global:
-    secure: Hze+W1B6f9Jpa/RM6Ca9O8EfZJlU1b6320dqSipKEyuyCbc6QRCMW5/qYGPwpC77Eq/YYSBdGccT5BktqsDVDbPI0lGt/WFXKTIdW+RuUwBRUQu7hjO/NfHPgcmsGvXx1B6ajxGc645eMRutuyszDMsBHZgMaCRc126EcH+kRcE=
+    secure: UzSCIpYgDMqcA7zqUDzCExOr13GGvTdJYaPMyGw/BKdkEJoVzpsBAe2xkP26YLttEXxM74fC7vakWgU3I8wgcXEGfVb9hEu5BvYgEuOIubtzkkCjS72duN5SOiMQKI/mE/UaJxSoQEa1M+ZT+2aBmoZpt0vHe5TKRkU8lntnmoc=
