@@ -4,6 +4,8 @@
 
 ##### Constants
 
+COMMAND=$1
+ACCESS_KEY=$2
 OWNER_NAME=`dirname $TRAVIS_REPO_SLUG`
 SSH="ssh -i access_key -o StrictHostKeyChecking=no"
 
@@ -34,8 +36,8 @@ function after_success
 
 ##### Main
 
-while [ "$1" != "" ]; do
-    case $1 in
+while [ "$COMMAND" != "" ]; do
+    case $COMMAND in
         install )               install
                                 ;;
         script )                script
