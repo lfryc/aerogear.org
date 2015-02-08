@@ -6,7 +6,7 @@ install:
 script:
 - bash -x travis.sh script
 after_success:
-- bash -x travis.sh after_success $ACCESS_KEY
+- bash travis.sh after_success $ACCESS_KEY
 env:
   global:
-    secure: KtIHxebSXiCgx8RVJnZ8jyAsQx3TxKIYrOTADtH7t6IoZxUH36CfZL7MT8baiZQcNOUvcH8Ux75wXg95tDLJsytWjeqhQinITNAqzmrAZS5hG/2zPzhCAnhrHWTSElQ1zxNXtuPnOuMZvyvkGAA4wrIFxJ4XKc+chKCqo0XpWOA=
+    secure: FBS6DxfykUSeutVIZy7z8sBksriKs2LEpwzGfrn3PRx/kIS75E2PiPYZuPr1W3uDXSiIXEhHpjbhrAK3TQXg/U1HmzU2s7M0nMu5Zti+bt3BT2j+nEe6Xol+b0Oxbh7FbRLDkyizI4rPbXqT967O9yoajx8dMxnTYjUYsgLhR7M=

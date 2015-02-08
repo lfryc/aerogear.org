@@ -35,14 +35,11 @@ function after_success
 
 ##### Main
 
-while [ "$1" != "" ]; do
-    case $1 in
-        install )               install
-                                ;;
-        script )                script
-                                ;;
-        after_success )         after_success
-                                ;;
-    esac
-    shift
-done
+case $1 in
+    install )               install
+                            ;;
+    script )                script
+                            ;;
+    after_success )         after_success
+                            ;;
+esac
