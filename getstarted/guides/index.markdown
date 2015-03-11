@@ -93,7 +93,7 @@ In progress
 * [Getting Started with the Java Sender API](/docs/unifiedpush/GetStartedwithJavaSender)
 
 <h4 id="pushTroubleshooting">Troubleshooting</h4>
-To better help trouble shooting, you should [enable logging on UnifiedPush Server](/docs/unifiedpush/ups_userguide/ups-debugging/#_enable_logging).
+To better help trouble shooting, you should [enable logging on UnifiedPush Server](/docs/unifiedpush/ups_userguide/index/#_enable_logging).
 For more details on the supported mobile platforms consult the guides below:
 
 * [Android](/docs/unifiedpush/aerogear-push-android/guides/#_android_troubleshooting)
