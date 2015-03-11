@@ -4,7 +4,7 @@
 // section: guides
 // ---
 
-
+[[admin-ui]]
 == Using the Admin UI
 
 The UnifiedPush Server can be accessed via its RESTful endpoints, as well over an administrative user interface.
@@ -22,7 +22,7 @@ IMPORTANT: By default the +developer+ account is disabled and needs to be explic
 
 === Login and landing page
 
-Once you have the UnifiedPush Server running, whether on link:../openshift[Openshift] or link:../server-installation[standalone], it is time to open the _AdminUI_, by accessing +http(s)://SERVER:PORT/ag-push+ in your browser. You are prompted by a login dialog:
+Once you have the UnifiedPush Server running, whether on link:#openshift[Openshift] or link:#server-installation[standalone], it is time to open the _AdminUI_, by accessing +http(s)://SERVER:PORT/ag-push+ in your browser. You are prompted by a login dialog:
 
 image:./img/login.png[Login to the UnifiedPush Server]
 
@@ -195,9 +195,9 @@ In case of a problem the _Status_ is presented as +Failed+. To learn more about 
 
 image:./img/dashboard_warnings_details.png[Warnings Details]
 
-The +Reason+ underneath the actual _Push Notification_ tries to give more information about the failure reason. If the information in the AdminUI is not enough, you might need to link:##_enable_logging[enable logging].
+The +Reason+ underneath the actual _Push Notification_ tries to give more information about the failure reason. If the information in the AdminUI is not enough, you might need to link:#_enable_logging[enable logging].
 
 === Next Steps
 
-Now that you are familiar with the AdminUI of the UnifiedPush Server, you can learn about its Administrative UI link:../server-administration[here].
-If you want to dive straight into some mobile development, you can find a list of different tutorials and guides link:../next[here].
+Now that you are familiar with the AdminUI of the UnifiedPush Server, you can learn about its Administrative UI link:#server-administration[here].
+If you want to dive straight into some mobile development, you can find a list of different tutorials and guides link:#next-steps[here].
