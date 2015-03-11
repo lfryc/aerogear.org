@@ -18,7 +18,7 @@ Once installed, the UnifiedPush Server comes with two different account types:
 
 The difference between the +admin+ and +developer+ account types is that the former can access all PushApplications and Variants configured on the server, whereas the latter has access only to the PushApplications and Variants created by the actual user. Further, the administration of the UnifiedPush Server, as well as management of it's users in the **Keycloak Admin Console**, can only be performed by the +admin+.
 
-IMPORTANT: By default the +developer+ account is disabled and needs to be explicitly enabled by the +admin+ inside of the link:../server-administration/#_enabling_the_default_developer_account[Keycloak Admin Console]!
+IMPORTANT: By default the +developer+ account is disabled and needs to be explicitly enabled by the +admin+ inside of the link:#_enabling_the_default_developer_account[Keycloak Admin Console]!
 
 === Login and landing page
 
@@ -137,7 +137,7 @@ image:./img/send_push_payload.png[Enter the payload]
 
 To deliver the message click the +Send Push Notification+ button.
 
-NOTE: It is possible to filter the list of receivers, using +Alias+, +Device Types+ and +Category+. Read the link:../next/#_server_integration_tutorials[Server Integration Tutorials] for more details.
+NOTE: It is possible to filter the list of receivers, using +Alias+, +Device Types+ and +Category+. Read the link:#_server_integration_tutorials[Server Integration Tutorials] for more details.
 
 If all goes well, your message will be delivered by the 3rd party Push Network to your device:
 
@@ -145,7 +145,7 @@ image:../../../docs/unifiedpush/aerogear-push-ios/img/PushMessage.png[You got a 
 
 ==== Sending a Push Notification from code
 
-While sending a Push Notification from the AdminUI is a nice feature, in a real world scenario, the Push Notification is triggered by a backend, as explained in link:../next/#_server_integration_tutorials[Server Integration Tutorials].
+While sending a Push Notification from the AdminUI is a nice feature, in a real world scenario, the Push Notification is triggered by a backend, as explained in link:#_server_integration_tutorials[Server Integration Tutorials].
 
 The UnifiedPush Server comes with APIs for link:../../../unifiedpush/GetStartedwithJavaSender/[Java], link:https://github.com/aerogear/aerogear-unifiedpush-nodejs-client#examples[Node.js]. Due to its RESTful architecture any backend, written in any language that supports HTTP, can link:../../../specs/aerogear-unifiedpush-rest/sender/index.html[send Push Notification requests] to it. On the details page of a PushApplication you find the required +Server URL+ and credentials (+Application ID+ and +Master Secret+).
 
@@ -195,7 +195,7 @@ In case of a problem the _Status_ is presented as +Failed+. To learn more about 
 
 image:./img/dashboard_warnings_details.png[Warnings Details]
 
-The +Reason+ underneath the actual _Push Notification_ tries to give more information about the failure reason. If the information in the AdminUI is not enough, you might need to link:../ups-debugging/##_enable_logging[enable logging].
+The +Reason+ underneath the actual _Push Notification_ tries to give more information about the failure reason. If the information in the AdminUI is not enough, you might need to link:##_enable_logging[enable logging].
 
 === Next Steps
 

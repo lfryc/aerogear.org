@@ -8,7 +8,7 @@ The _AeroGear UnifiedPush Server_ defines a logical _abstraction_ for Mobile App
 
 Details on the AeroGear UnifiedPush Server are discussed link:../../ups_userguide/[here].
 
-Once you have run through the link:../../ups_userguide/server-installation[Installation] and link:../../ups_userguide/admin-ui/#_login_and_landing_page[Login] Procedures, meet me back here.  I'll wait.
+Once you have run through the link:../../ups_userguide/server-installation[Installation] and link:#_login_and_landing_page[Login] Procedures, meet me back here.  I'll wait.
 
 Ok, now that your back, lets continue.
 

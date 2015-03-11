@@ -37,7 +37,7 @@ image::./img/code_signing.png[Xcode project settings]
 
 === Running into "No matching provisioning profiles found" issue?
 
-Check out link:../troubleshooting#_question_no_matching_provisioning_profiles_found[iOS troubleshooting guide].
+Check out link:#_question_no_matching_provisioning_profiles_found[iOS troubleshooting guide].
 
 ==== UnifiedPush Server
 
