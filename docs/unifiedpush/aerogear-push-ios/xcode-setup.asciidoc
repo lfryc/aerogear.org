@@ -4,6 +4,7 @@ title:
 section: guides
 ---
 
+[[xcode-setup]]
 == Code signing, app id, provisioning profile
 
 Let's explain the Apple code signing and provisioning profile approach. It all starts with a developer certificate.

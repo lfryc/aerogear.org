@@ -1,3 +1,4 @@
+[[chrome-app]]
 == Your first Chrome/Push App
 
 Now that the UnifiedPush server is up and running, time to create a sample application that will exercise AeroGear's Chrome Push library support.

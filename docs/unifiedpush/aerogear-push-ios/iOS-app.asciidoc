@@ -1,4 +1,4 @@
-
+[[iOS-app]]
 == Creating an iOS application
 
 Before we start, please install link:http://cocoapods.org/[CocoaPods].

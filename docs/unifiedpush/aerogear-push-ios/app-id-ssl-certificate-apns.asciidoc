@@ -1,3 +1,4 @@
+[[app-id-ssl-certificate-apns]]
 == Apple related setup
 
 Before you are able to use Push Notifications on your iOS Application, a few steps are required. This section of the tutorial gives a quick overview of what is needed!

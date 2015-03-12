@@ -1,4 +1,4 @@
-
+[[troubleshooting]]
 ## iOS Troubleshooting
 
 This troubleshooting guide takes as a pre-requesite that you have carefully followed the instructions in the link:../index.html[iOS tutotial].
