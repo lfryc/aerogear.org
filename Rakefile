@@ -19,6 +19,8 @@ task :test do
       /docs\/guides\/aerogear-android/,
       /docs\/specs\/aerogear-ios/,
       /docs\/specs\/aerogear-js/,
+      /docs\/specs\/aerogear-unifiedpush-java-client/,
+      /docs\/specs\//,
       /news\/index\.html/
       #/docs\/unifiedpush/
     ]

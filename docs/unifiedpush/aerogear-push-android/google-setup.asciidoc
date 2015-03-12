@@ -37,4 +37,4 @@ On the last screen we are finally get to see the actual value of the generated S
 
 image:./img/gcc_7.png["Project Number",border="1"]
 
-Now that Google is ready to accept and deliver our messages, we are ready to setup the link:../register-device[UnifiedPush server].
+Now that Google is ready to accept and deliver our messages, we are ready to setup the link:#register-device[UnifiedPush server].

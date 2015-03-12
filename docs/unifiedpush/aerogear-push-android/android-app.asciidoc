@@ -320,4 +320,4 @@ image::./img/app-main-screen.png[Push Application Main Screen]
 [NOTE]
 If you don't see the 'Registration Succeeded' popup, means that an error has occurred during the registration. Switch to the LogCat console in Eclipse to locate the exception and act accordingly.
 
-Now that we have our application up an running time to link:../push-notification[send messages] using the AeroGear UnifiedPush Server!
+Now that we have our application up an running time to link:#push-notification[send messages] using the AeroGear UnifiedPush Server!

@@ -61,5 +61,5 @@ image:./img/XcodeOrganizer.png[Xcode Organizer shows the new Provisioning Profil
 
 === Settting up Xcode
 
-Now, let's setup the link:../xcode-setup[Xcode]
+Now, let's setup the link:#xcode-setup[Xcode]
 

@@ -1,8 +1,8 @@
----
-layout: post
-title: 
-section: guides
----
+//---
+//layout: post
+//title:
+//section: guides
+//---
 
 [[xcode-setup]]
 == Code signing, app id, provisioning profile
@@ -21,7 +21,7 @@ All apps running on iOS must be code signed.
 
 === Entitlements
 
-Entitlements specify which resources of the system an app is allowed to use. These entitlements should all be enabled in the developer center’s App ID, and embedded in the provisioning profile. Setting entitlements to enable Push notification is done in link:../app-id-ssl-certificate-apns[Apple App ID and SSL certificate for APNs].
+Entitlements specify which resources of the system an app is allowed to use. These entitlements should all be enabled in the developer center’s App ID, and embedded in the provisioning profile. Setting entitlements to enable Push notification is done in link:#app-id-ssl-certificate-apns[Apple App ID and SSL certificate for APNs].
 
 === Provisioning profile
 
@@ -42,5 +42,5 @@ Check out link:#_question_no_matching_provisioning_profiles_found[iOS troublesho
 
 ==== UnifiedPush Server
 
-Now, after managing all the Apple certificates, let's setup the link:../unified-push-server[UnifiedPush Server].
+Now, after managing all the Apple certificates, let's setup the link:#unified-push-server[UnifiedPush Server].
 
