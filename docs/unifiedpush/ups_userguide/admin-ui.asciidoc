@@ -124,6 +124,7 @@ image:./img/installations_and_details.png[DA]
 
 In this screen there is only one device listed and its details are expanded (see the red circle). The details show the entire +device-token+ of the device. On this screen you could also exclude a specific device from receiving Push Notifications, using the +Receiving+ toggle.
 
+[[sending_a_push_notification]]
 === Sending a Push Notification
 
 
